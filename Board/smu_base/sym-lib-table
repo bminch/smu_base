@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "smu-rescue")(type "KiCad")(uri "${KIPRJMOD}/smu_base-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "Eclectronics")(type "KiCad")(uri "${KIPRJMOD}/../Eclectronics/Eclectronics.kicad_sym")(options "")(descr ""))
+  (lib (name "smu_base")(type "KiCad")(uri "${KIPRJMOD}/smu_base.kicad_sym")(options "")(descr ""))
+)
