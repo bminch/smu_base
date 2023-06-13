@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# AD8420ARMZ-R7
+#
+DEF AD8420ARMZ-R7 U 0 40 Y Y 1 L N
+F0 "U" -237 667 50 H V L BNN
+F1 "AD8420ARMZ-R7" -259 -1023 50 H V L BNN
+F2 "SOP65P490X110-8N" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "Analog Devices" 0 0 50 H I L BNN "SUPPLIER"
+F5 "2081031" 0 0 50 H I L BNN "OC_FARNELL"
+F6 "82T3701" 0 0 50 H I L BNN "OC_NEWARK"
+F7 "AD8420ARMZ-R7" 0 0 50 H I L BNN "MPN"
+F8 "MSOP-8" 0 0 50 H I L BNN "PACKAGE"
+DRAW
+S -500 -900 500 600 0 0 16 f
+X +VS 5 -700 400 200 R 40 40 0 0 W 
+X FB 7 -700 200 200 R 40 40 0 0 I 
+X REF 6 -700 0 200 R 40 40 0 0 I 
+X +IN 2 -700 -200 200 R 40 40 0 0 I 
+X -IN 3 -700 -300 200 R 40 40 0 0 I 
+X NC 1 -700 -500 200 R 40 40 0 0 N 
+X -VS 4 -700 -700 200 R 40 40 0 0 W 
+X VOUT 8 700 400 200 L 40 40 0 0 O 
+ENDDRAW
+ENDDEF
+#
+# End Library
